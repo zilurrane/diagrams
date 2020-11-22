@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T15:06:55.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="HpWdG5nn0fQR19voh1JW" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T15:08:02.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="gqqtCfmTg0EUjUI1U88b" version="13.10.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="SaSodBdJ9S873mT8EDmA-14" value="&lt;b&gt;2.&lt;/b&gt; Once development is completed, &lt;b&gt;FeatureBranch &lt;/b&gt;gets merged into &lt;b&gt;PQA&lt;/b&gt; branch and deployed. This is the place where QAs tests app for all the scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="340" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SaSodBdJ9S873mT8EDmA-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;3 &amp;amp; 4.&lt;/b&gt;&amp;nbsp;Once QA verified feature and it is expected to go into production immediately&amp;nbsp;will be merged into &lt;b&gt;DEV&lt;/b&gt; and that follows &lt;b&gt;QA&lt;/b&gt; merge.&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;This is code sharing branch. Developer adds &lt;b&gt;Tag&lt;/b&gt; on each code share. If we starts adding release notes then that would be better.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SaSodBdJ9S873mT8EDmA-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;3 &amp;amp; 4.&lt;/b&gt;&amp;nbsp;Once QA verified feature and it is expected to go into production immediately&amp;nbsp;will be merged into &lt;b&gt;DEV&lt;/b&gt; and that follows &lt;b&gt;QA&lt;/b&gt; merge. This is the point were developer can delete &lt;b&gt;FeatureBranch&lt;/b&gt;.&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;This is code sharing branch. Developer adds &lt;b&gt;Tag&lt;/b&gt; on each code share. If we starts adding release notes then that would be better.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="10" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="SaSodBdJ9S873mT8EDmA-1">
