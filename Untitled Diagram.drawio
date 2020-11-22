@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T15:08:02.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="gqqtCfmTg0EUjUI1U88b" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T15:11:42.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="ho6XfZZih4FTLG0B5-SI" version="13.10.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
             <mxPoint x="470" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SaSodBdJ9S873mT8EDmA-12" value="&lt;b&gt;1.&lt;/b&gt; Developer creates&amp;nbsp;&lt;b&gt;FeatureBranch&lt;br&gt;&lt;/b&gt;from &lt;b&gt;DEV&lt;/b&gt; branch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="110" width="210" height="50" as="geometry" />
+        <mxCell id="SaSodBdJ9S873mT8EDmA-12" value="&lt;b&gt;1.&lt;/b&gt; Developer creates&amp;nbsp;&lt;b&gt;FeatureBranch &lt;/b&gt;from &lt;b&gt;DEV&lt;/b&gt; branch." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="420" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-13" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SaSodBdJ9S873mT8EDmA-7" target="SaSodBdJ9S873mT8EDmA-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -38,10 +38,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-14" value="&lt;b&gt;2.&lt;/b&gt; Once development is completed, &lt;b&gt;FeatureBranch &lt;/b&gt;gets merged into &lt;b&gt;PQA&lt;/b&gt; branch and deployed. This is the place where QAs tests app for all the scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="340" width="250" height="80" as="geometry" />
+          <mxGeometry x="200" y="490" width="430" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;3 &amp;amp; 4.&lt;/b&gt;&amp;nbsp;Once QA verified feature and it is expected to go into production immediately&amp;nbsp;will be merged into &lt;b&gt;DEV&lt;/b&gt; and that follows &lt;b&gt;QA&lt;/b&gt; merge. This is the point were developer can delete &lt;b&gt;FeatureBranch&lt;/b&gt;.&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;This is code sharing branch. Developer adds &lt;b&gt;Tag&lt;/b&gt; on each code share. If we starts adding release notes then that would be better.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="10" width="290" height="90" as="geometry" />
+          <mxGeometry x="200" y="530" width="440" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="SaSodBdJ9S873mT8EDmA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,9 +61,6 @@
             <mxPoint x="470" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SaSodBdJ9S873mT8EDmA-28" value="&lt;b&gt;5.&lt;/b&gt; Once code is deployed on production&lt;br&gt;it gets merged into &lt;b&gt;MASTER&lt;/b&gt; branch." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="100" width="230" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SaSodBdJ9S873mT8EDmA-7" target="SaSodBdJ9S873mT8EDmA-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="200" as="sourcePoint" />
@@ -71,7 +68,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SaSodBdJ9S873mT8EDmA-32" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;6.&amp;nbsp; &lt;/b&gt;Any QA verified feature which is planned for late production deployment but code is planned to shared with client immediately will be merged into &lt;b&gt;QAv3&lt;/b&gt; branch. Developer &lt;b&gt;Tag&lt;/b&gt;&amp;nbsp;the branch and share code.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="240" width="290" height="90" as="geometry" />
+          <mxGeometry x="200" y="650" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SaSodBdJ9S873mT8EDmA-33" value="&lt;b&gt;5.&lt;/b&gt;&lt;span&gt;&amp;nbsp;Once code is deployed on production&amp;nbsp;&lt;/span&gt;&lt;span&gt;it gets merged into&amp;nbsp;&lt;/span&gt;&lt;b&gt;MASTER&lt;/b&gt;&lt;span&gt;&amp;nbsp;branch.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
